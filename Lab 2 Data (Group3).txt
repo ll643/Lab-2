@@ -1,5 +1,5 @@
 Day fraction since midnight on 	pH probe (pH)	air slope ()	air valve control ()
-about to start for real real			
+#about to start for real real			
 0.60090697	7.725131512	0	NaN
 0.600918542	7.727334023	0	NaN
 0.600930146	7.734005451	0	NaN
@@ -301,7 +301,7 @@ about to start for real real
 0.604356062	6.599380016	0	NaN
 0.604367616	6.614820004	0	NaN
 0.604379189	6.608807564	0	NaN
-5 minute mark			
+#5 minute mark			
 0.604390779	6.575010777	0	NaN
 0.604402348	6.559966087	0	NaN
 0.604413936	6.551589012	0	NaN
@@ -602,7 +602,7 @@ about to start for real real
 0.60782827	5.856486797	0	NaN
 0.607839873	5.835951805	0	NaN
 0.607851421	5.845950127	0	NaN
-10 minute mark			
+#10 minute mark			
 0.607862978	5.783514023	0	NaN
 0.607874565	5.819033623	0	NaN
 0.607886126	5.786349297	0	NaN
@@ -903,7 +903,7 @@ about to start for real real
 0.611300489	4.001344204	0	NaN
 0.611312062	3.982595444	0	NaN
 0.611323644	4.068295002	0	NaN
-15 minute mark			
+#15 minute mark			
 0.611335215	4.239027977	0	NaN
 0.611346795	3.950100422	0	NaN
 0.611358357	3.941165686	0	NaN
@@ -1206,4 +1206,4 @@ about to start for real real
 0.614795845	3.45263648	0	NaN
 0.61480742	3.433029413	0	NaN
 0.614818982	3.424034596	0	NaN
-20 minute mark			
+#20 minute mark			
