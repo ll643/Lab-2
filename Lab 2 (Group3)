@@ -1,8 +1,18 @@
-```
 #Data Analysis
 K1=10−6.3, K2=10−10.3, KH=10−1.5molLatm, PCO2=10−3.5atm, and Kw=10−14.
 
 1. Plot measured pH of the lake versus dimensionless hydraulic residence time (t/θ).
+```
+from aguaclara.core.units import unit_registry as u
+import aguaclara.research.environmental_processes_analysis as epa
+from scipy import optimize
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+data_file_path="https://raw.githubusercontent.com/ll643/Lab-2/master/Lab%202%20Data%20(Group3).xls.txt"
+epa.notes(data_file_path)
+
+```
 2. Assuming that the lake can be modeled as a completely mixed flow reactor and that ANC is a conservative parameter, equation (25) can be used to calculate the expected ANC in the lake effluent as the experiment proceeds. Graph the expected ANC in the lake effluent versus the hydraulic residence time (t/θ) based on the completely mixed flow reactor equation with the plot labeled (in the legend) as conservative ANC.
 3. If we assume that there are no carbonates exchanged with the atmosphere during the experiment, then we can calculate ANC in the lake effluent by using equation (14) describing the ANC of a closed system. Calculate the ANC under the assumption of a closed system and plot it on the same graph produced in answering question #3 with the plot labeled (in the legend) as closed ANC.
 4. If we assume that there is exchange with the atmosphere and that carbonates are at equilibrium with the atmosphere, then we can calculate ANC in the lake effluent by using equation (18) describing the ANC of an open system. Calculate the ANC under the assumption of an open system and plot it on the same graph produced in answering question #3 with the plot labeled (in the legend) as open ANC.
@@ -11,5 +21,3 @@ K1=10−6.3, K2=10−10.3, KH=10−1.5molLatm, PCO2=10−3.5atm, and Kw=10−14.
 #Questions
 1. What do you think would happen if enough NaHCO3 were added to the lake to maintain an ANC greater than 50μeq/L for 3 residence times with the stirrer turned off? How much NaHCO3 would need to be added?
 2. What are some of the complicating factors you might find in attempting to remediate a lake using CaCO3?
-
-```
