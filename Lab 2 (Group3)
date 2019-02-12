@@ -10,7 +10,19 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 data_file_path="https://raw.githubusercontent.com/ll643/Lab-2/master/Lab%202%20Data%20(Group3).xls.txt"
-epa.notes(data_file_path)
+df = pd.read_csv(data_file_path,delimiter='\t')
+print(df)
+x = df.iloc[:,0].values
+x
+y = df.iloc[:,1].values
+y
+fig, ax = plt.subplots()
+ax.plot(x, y, 'ro', )
+ax.set(xlabel=list(df)[0])
+ax.set(ylabel=list(df)[1])
+ax.legend(['Measured'])
+ax.grid(True)
+plt.show()
 
 ```
 2. Assuming that the lake can be modeled as a completely mixed flow reactor and that ANC is a conservative parameter, equation (25) can be used to calculate the expected ANC in the lake effluent as the experiment proceeds. Graph the expected ANC in the lake effluent versus the hydraulic residence time (t/θ) based on the completely mixed flow reactor equation with the plot labeled (in the legend) as conservative ANC.
