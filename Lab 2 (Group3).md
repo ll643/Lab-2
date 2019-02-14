@@ -28,6 +28,9 @@ plt.ylabel('pH of Lake')
 plt.title('pH of Lake vs. Hydraulic Residence Time')
 plt.show()
 ```
+![figure1](https://github.com/ll643/Lab-2/blob/master/Lab%203%20(Group3)%20Pic1.png)
+Figure 1
+
 #Question 2
 ##Givens:
 $$Volume_{lake}=4quarts=3.785L$$
@@ -159,6 +162,8 @@ plt.title('ANC vs. Hydraulic Residence Time')
 plt.legend()
 plt.show()
 ```
+![figure2](https://github.com/ll643/Lab-2/blob/master/Lab%203%20(Group3)%20Pic2.png)
+
 #Question 5
 ##pH
 ```python
@@ -185,6 +190,8 @@ plt.ylabel('pH of Lake')
 plt.title('pH of Lake vs. Hydraulic Residence Time')
 plt.show()
 ```
+![figure3](https://github.com/ll643/Lab-2/blob/master/Lab%203%20(Group3)%20Pic3.png)
+
 ##ANC
 ```python
 K1 = 10**-6.3
@@ -221,10 +228,14 @@ plt.title('ANC vs. Hydraulic Residence Time')
 plt.legend()
 plt.show()
 ```
-By doubling the initial ANC amount (from 0.623g of NaCO3 to 1.246g of NaCO3), the lake was better at buffering the acid rain. Based off of the figures produced
+![figure4](https://github.com/ll643/Lab-2/blob/master/Lab%203%20(Group3)%20Pic4.png)
+
+By doubling the initial ANC amount (from 0.623g of NaCO3 to 1.246g of NaCO3), the lake was better at buffering the acid rain. Based off of the figures produced, we can see that the final pH of the lake after 20 mins with the extra ANC is much higher than the final pH of the lake after 20 mins with the normal dosage of ANC.
 
 #Question 1
 ##What do you think would happen if enough NaHCO3 were added to the lake to maintain an ANC greater than 50μeq/L for 3 residence times with the stirrer turned off? How much NaHCO3 would need to be added?
+
+If enough NaHCO3 was added to the lake to maintain an ANC greater than 50μeq/L for 3 residence times with the stirrer turned off, the lake would be able to withstand the the acid rain for a longer time before it reached its buffering threshold and surrends to acidification. However, because the lake is not being stirred, certain areas of the lake will not be as effective at buffering the incoming acid rain.
 
 ```python
 from aguaclara.core import utility as ut
