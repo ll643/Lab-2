@@ -235,7 +235,7 @@ What we learned in the second trial is that by doubling the initial ANC amount (
 #Question 1
 ##What do you think would happen if enough NaHCO3 were added to the lake to maintain an ANC greater than 50μeq/L for 3 residence times with the stirrer turned off? How much NaHCO3 would need to be added?
 
-If enough NaHCO3 was added to the lake to maintain an ANC greater than 50μeq/L for 3 residence times with the stirrer turned off, the lake would be able to withstand the the acid rain for a longer time before it reached its buffering threshold and surrended to acidification. However, because the lake is not being stirred, certain areas of the lake will not become as effective at buffering the incoming acid rain. Visually, this change would cause the lake to stay blue longer before it started to become a clear yellow/green color.
+If enough NaHCO3 was added to the lake to maintain an ANC greater than 50μeq/L for 3 residence times with the stirrer turned off, the lake would be able to withstand the the acid rain for a longer time before it reached its buffering threshold and surrended to acidification. However, because the lake is not being stirred, the NaHCO3 would sink to the bottom of the lake and the top of the lake would still become acidified. Visually, this change would cause the lake to stay blue longer before it started to become a clear yellow/green color.
 
 ```python
 from aguaclara.core import utility as ut
