@@ -242,7 +242,7 @@ Figure 4
 What we learned in the second trial is that by doubling the initial ANC amount (from 0.623g of NaCO3 to 1.246g of NaCO3), the lake was better at buffering the acid rain. Based off of the figures produced, we can see that the final pH of the lake after 20 mins with the extra ANC (6) is much higher than the final pH of the lake after 20 mins with the normal dosage of ANC (4).
 
 # Question 1
-##What do you think would happen if enough NaHCO3 were added to the lake to maintain an ANC greater than 50μeq/L for 3 residence times with the stirrer turned off? How much NaHCO3 would need to be added?
+## What do you think would happen if enough NaHCO3 were added to the lake to maintain an ANC greater than 50μeq/L for 3 residence times with the stirrer turned off? How much NaHCO3 would need to be added?
 
 If enough NaHCO3 was added to the lake to maintain an ANC greater than 50μeq/L for 3 residence times with the stirrer turned off, the lake would be able to withstand the the acid rain for a longer time before it reached its buffering threshold and surrended to acidification. However, because the lake is not being stirred, the NaHCO3 would sink to the bottom of the lake and the top of the lake would still become acidified. Visually, this change would cause the lake to stay blue longer before it started to become a clear yellow/green color.
 
@@ -262,10 +262,7 @@ print('We would need', ut.round_sf(Mass_NaHCO3,4),'g of NaHCO3.')
 ```
 
 # Question 2
-## What are some of the complicating factors you might find in attempting to remediate a lake using CaCO3? Below is a list of issues to consider.
-*extent of mixing
-*solubility of CaCO3 (find the solubility and compare with NaHCO3)
-*density of CaCO3 slurry (find the density of CaCO3)
+## What are some of the complicating factors you might find in attempting to remediate a lake using CaCO3? Below is a list of issues to consider: extent of mixing, solubility of CaCO3 (find the solubility and compare with NaHCO3), and density of CaCO3 slurry (find the density of CaCO3)
 
 One of the complicating factors that we might find in attempting to remediate a lake using CaCO3 is the extremely low solubility of CaCO3 in pure water (15mg/L) which would make it difficult to dissolve therefore making it not as effective of a remediating agent. In addition its solubility is variant with the temperature of the water (it is inversely proportional to temperature). In contrast, NaHCO3 is extremely water-soluble no matter the temperature of the water. However, it is important to note that due to this discrepancy, CaCO3 could potentially be more soluble than NaHCO3 if we are using cold water. Another complicating factor we must take into consideration is that fact that CaCO3 as a slurry is denser than NaHCO3 (2.74 g/cm3 vs 2.2g/cm3) and therefore would be more difficult to mix thoroughly throughout the lake. These factors should be kept in mind when deciding on a remediation process with CaCO3, as calcium carbonate is more selectively soluble and denser than NaHCO3.
 
