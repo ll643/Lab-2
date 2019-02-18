@@ -29,6 +29,7 @@ plt.title('pH of Lake vs. Hydraulic Residence Time')
 plt.show()
 ```
 ![figure1](https://github.com/ll643/Lab-2/blob/master/Lab%203%20(Group3)%20Pic1.png)
+
 Figure 1
 
 #Question 2
@@ -164,6 +165,8 @@ plt.show()
 ```
 ![figure2](https://github.com/ll643/Lab-2/blob/master/Lab%203%20(Group3)%20Pic2.png)
 
+Figure 2
+
 #Question 5
 ##pH
 ```python
@@ -191,6 +194,8 @@ plt.title('pH of Lake vs. Hydraulic Residence Time')
 plt.show()
 ```
 ![figure3](https://github.com/ll643/Lab-2/blob/master/Lab%203%20(Group3)%20Pic3.png)
+
+Figure 3
 
 ##ANC
 ```python
@@ -229,6 +234,8 @@ plt.legend()
 plt.show()
 ```
 ![figure4](https://github.com/ll643/Lab-2/blob/master/Lab%203%20(Group3)%20Pic4.png)
+
+Figure 4
 
 What we learned in the second trial is that by doubling the initial ANC amount (from 0.623g of NaCO3 to 1.246g of NaCO3), the lake was better at buffering the acid rain. Based off of the figures produced, we can see that the final pH of the lake after 20 mins with the extra ANC (6) is much higher than the final pH of the lake after 20 mins with the normal dosage of ANC (4).
 
