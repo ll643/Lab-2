@@ -3,7 +3,8 @@ Group 3
 Lab 2 (Acid Rain)
 Due 02/15/2019
 
-#Question 1
+# Question 1
+
 ```python
 from aguaclara.core.units import unit_registry as u
 import aguaclara.research.environmental_processes_analysis as epa
@@ -33,8 +34,8 @@ plt.show()
 
 Figure 1
 
-#Question 2
-##Givens:
+# Question 2
+## Givens:
 $$Volume_{lake}=4quarts=3.785L$$
 $$pH_{lake(init)}=7$$
 $$Q=161ml/30s=0.161L/30s=0.00537L/s$$
@@ -68,7 +69,7 @@ plt.title('Conservative ANC vs. Hydraulic Residence Time')
 plt.legend()
 plt.show()
 ```
-#Question 3
+# Question 3
 ```python
 K1 = 10**-6.3
 K2 = 10**-10.3
@@ -98,7 +99,7 @@ plt.title('Closed ANC vs. Hydraulic Residence Time')
 plt.legend()
 plt.show()
 ```
-#Question 4
+# Question 4
 ```python
 K1 = 10**-6.3
 K2 = 10**-10.3
@@ -128,7 +129,7 @@ plt.title('Open ANC vs. Hydraulic Residence Time')
 plt.legend()
 plt.show()
 ```
-#Final ANC Graph
+# Final ANC Graph
 ```python
 K1 = 10**-6.3
 K2 = 10**-10.3
@@ -168,8 +169,8 @@ plt.show()
 
 Figure 2
 
-#Question 5
-##pH
+# Question 5
+## pH
 ```python
 from aguaclara.core.units import unit_registry as u
 import aguaclara.research.environmental_processes_analysis as epa
@@ -198,7 +199,7 @@ plt.show()
 
 Figure 3
 
-##ANC
+## ANC
 ```python
 K1 = 10**-6.3
 K2 = 10**-10.3
@@ -240,7 +241,7 @@ Figure 4
 
 What we learned in the second trial is that by doubling the initial ANC amount (from 0.623g of NaCO3 to 1.246g of NaCO3), the lake was better at buffering the acid rain. Based off of the figures produced, we can see that the final pH of the lake after 20 mins with the extra ANC (6) is much higher than the final pH of the lake after 20 mins with the normal dosage of ANC (4).
 
-#Question 1
+# Question 1
 ##What do you think would happen if enough NaHCO3 were added to the lake to maintain an ANC greater than 50μeq/L for 3 residence times with the stirrer turned off? How much NaHCO3 would need to be added?
 
 If enough NaHCO3 was added to the lake to maintain an ANC greater than 50μeq/L for 3 residence times with the stirrer turned off, the lake would be able to withstand the the acid rain for a longer time before it reached its buffering threshold and surrended to acidification. However, because the lake is not being stirred, the NaHCO3 would sink to the bottom of the lake and the top of the lake would still become acidified. Visually, this change would cause the lake to stay blue longer before it started to become a clear yellow/green color.
@@ -260,16 +261,16 @@ Mass_NaHCO3=(Conc_HCO3*volume_lake)*(molar_mass_NaHCO3)
 print('We would need', ut.round_sf(Mass_NaHCO3,4),'g of NaHCO3.')
 ```
 
-#Question 2
-##What are some of the complicating factors you might find in attempting to remediate a lake using CaCO3? Below is a list of issues to consider.
+# Question 2
+## What are some of the complicating factors you might find in attempting to remediate a lake using CaCO3? Below is a list of issues to consider.
 *extent of mixing
 *solubility of CaCO3 (find the solubility and compare with NaHCO3)
 *density of CaCO3 slurry (find the density of CaCO3)
 
 One of the complicating factors that we might find in attempting to remediate a lake using CaCO3 is the extremely low solubility of CaCO3 in pure water (15mg/L) which would make it difficult to dissolve therefore making it not as effective of a remediating agent. In addition its solubility is variant with the temperature of the water (it is inversely proportional to temperature). In contrast, NaHCO3 is extremely water-soluble no matter the temperature of the water. However, it is important to note that due to this discrepancy, CaCO3 could potentially be more soluble than NaHCO3 if we are using cold water. Another complicating factor we must take into consideration is that fact that CaCO3 as a slurry is denser than NaHCO3 (2.74 g/cm3 vs 2.2g/cm3) and therefore would be more difficult to mix thoroughly throughout the lake. These factors should be kept in mind when deciding on a remediation process with CaCO3, as calcium carbonate is more selectively soluble and denser than NaHCO3.
 
-#Conclusion
+# Conclusion
 From this lab we were able to see the effects of acidification on a lake with initial ANC both visually and quantitatively. At the beginning of the experiment, the lake was a clear blue color, but as the amount of acid rain in the lake became to accumulate the lake lost its pretty color and went clear before it became a greenish yellow color. Quantitatively we see from Figure 1 that pH levels dropped exponentially from the beginning of the experiment, but as the lake reached its ANC threshold the decline became more steep. When the initial ANC was doubled, we observed that the lake was able to withstand the acid rain much better. The curvature of Figure 4 is less steep than that of Figure 1. Due to minor leaking, the curves produced are not very smooth; there are some anomaly data points. However, the general shape of the curve can be easily identified. Regardless, we successfully achieved our experimental objectives and collected sufficient data that allowed for through analysis.
 
-#Suggestions/Comments
+# Suggestions/Comments
 Overall, this was an enjoyable lab! We liked how along the way visually we were able to see if we were doing the lab correctly. As a whole, the lab was quite easy to complete; however, setting up the lab was a bit confusing. We think it would have been helpful if on the first day of lab we were given a tutorial of how to use the various lab equipment such as the tube connectors. Our tubes were a bit leaky at first because we were not aware of how to connect them correctly. There are other minor set up details that could have been clearer. For example, we did not know that there was a clamp for the pH probe so we just tapped it to the side of our lake. Also, at first our pump was pumping in the wrong sense because we did not know that we could change the orientation of the flow. We think that all of this confusion can be easily fixed with an extra diagram or two of the whole set up.
